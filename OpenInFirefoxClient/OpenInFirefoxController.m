@@ -7,8 +7,8 @@
 #import <UIKit/UIKit.h>
 #import "OpenInFirefoxController.h"
 
- static NSString * const firefoxScheme = @"firefox:";
- static NSString * const myAppScheme = @"firefoxopeninfirefoxclient://";
+static NSString * const firefoxScheme = @"firefox:";
+static NSString * const myAppScheme = @"firefoxopeninfirefoxclient://";
 
 @implementation OpenInFirefoxController
 

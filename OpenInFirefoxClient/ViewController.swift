@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     func buttonAction(sender: UIButton!) {
         if let url = NSURL(string: "http://www.mozilla.com") {
             var controller = OpenInFirefoxController()
-            controller.openInFirefox(url)
+            if controller.isFirefoxInstalled() {
+                controller.openInFirefox(url)
+            }
         }
     }
 
