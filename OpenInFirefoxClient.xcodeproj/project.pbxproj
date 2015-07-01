@@ -358,7 +358,7 @@
 				INFOPLIST_FILE = OpenInFirefoxClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bmunar/Desktop/OpenInFirefoxClient/OpenInFirefoxClient-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInFirefoxClient-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -371,7 +371,7 @@
 				INFOPLIST_FILE = OpenInFirefoxClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bmunar/Desktop/OpenInFirefoxClient/OpenInFirefoxClient-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenInFirefoxClient-Bridging-Header.h";
 			};
 			name = Release;
 		};
