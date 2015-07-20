@@ -62,6 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D392391B5DC2060016F0E5 /* Example App */ = {
+			isa = PBXGroup;
+			children = (
+				74D20F831B2B789500A41894 /* AppDelegate.swift */,
+				74D20F851B2B789500A41894 /* ViewController.swift */,
+				74D20F871B2B789500A41894 /* Main.storyboard */,
+				74D20F8A1B2B789500A41894 /* Images.xcassets */,
+				74D20F8C1B2B789500A41894 /* LaunchScreen.xib */,
+			);
+			name = "Example App";
+			sourceTree = "<group>";
+		};
 		74D20F751B2B789500A41894 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +95,11 @@
 		74D20F801B2B789500A41894 /* OpenInFirefoxClient */ = {
 			isa = PBXGroup;
 			children = (
-				74D20F831B2B789500A41894 /* AppDelegate.swift */,
+				28D392391B5DC2060016F0E5 /* Example App */,
 				7459FBEB1B323CFE002DCC8A /* OpenInFirefoxController.h */,
-				74D20FC71B2B926500A41894 /* OpenInFirefoxController.swift */,
 				7459FBEC1B323CFE002DCC8A /* OpenInFirefoxController.m */,
+				74D20FC71B2B926500A41894 /* OpenInFirefoxController.swift */,
 				746140F21B2F43F30011A8A6 /* OpenInFirefoxClient-Bridging-Header.h */,
-				74D20F851B2B789500A41894 /* ViewController.swift */,
-				74D20F871B2B789500A41894 /* Main.storyboard */,
-				74D20F8A1B2B789500A41894 /* Images.xcassets */,
-				74D20F8C1B2B789500A41894 /* LaunchScreen.xib */,
 				74D20F811B2B789500A41894 /* Supporting Files */,
 			);
 			path = OpenInFirefoxClient;
