@@ -4,9 +4,9 @@
 
 #import <Foundation/Foundation.h>
 
-// This class is used to check if   Firefox is installed in the system and
-// to open a URL in   Firefox either with or without a callback URL.
-@interface OpenInFirefoxController : NSObject
+// This class is used to check if Firefox is installed in the system and
+// to open a URL in Firefox either with or without a callback URL.
+@interface OpenInFirefoxController: NSObject
 
 // Returns a shared instance of the OpenInFirefoxController.
 + (OpenInFirefoxController *)sharedInstance;
